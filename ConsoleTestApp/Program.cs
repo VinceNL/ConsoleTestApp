@@ -1,4 +1,4 @@
-﻿using GenericsWithConstraintExample;
+﻿using WarehouseManagementSystemAPI;
 
 namespace TestConsoleApp
 {
@@ -9,6 +9,7 @@ namespace TestConsoleApp
             //CodeExampleRunner.RunEventDelegationExample();
             //CodeExampleRunner.RunObserverPatternExample();
             //CodeExampleRunner.RunGenericsWithConstraintExample();
+            //CodeExampleRunner.RunCustomQueueExample();
         }
     }
 }
