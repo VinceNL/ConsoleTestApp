@@ -3,22 +3,22 @@
     public class Employee : IEmployee
     {
         public int Id { get; set; }
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
-        public string JobTitle { get; set; }
+        public string? FirstName { get; set; }
+        public string? LastName { get; set; }
+        public string? JobTitle { get; set; }
     }
 
     public interface IEmployee
     {
         int Id { get; set; }
-        string FirstName { get; set; }
-        string LastName { get; set; }
-        string JobTitle { get; set; }
+        string? FirstName { get; set; }
+        string? LastName { get; set; }
+        string? JobTitle { get; set; }
     }
 
     public abstract class Observer : IObserver<ExternalVisitor>
     {
-        private IDisposable _cancellation;
+        private IDisposable? _cancellation;
         protected List<ExternalVisitor> _externalVisitors = new List<ExternalVisitor>();
 
         public abstract void OnCompleted();
@@ -34,7 +34,7 @@
 
         public void UnSubscribe()
         {
-            _cancellation.Dispose();
+            _cancellation?.Dispose();
             _externalVisitors.Clear();
         }
     }
@@ -281,10 +281,10 @@
     public class ExternalVisitor
     {
         public int Id { get; set; }
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
-        public string CompanyName { get; set; }
-        public string JobTitle { get; set; }
+        public string? FirstName { get; set; }
+        public string? LastName { get; set; }
+        public string? CompanyName { get; set; }
+        public string? JobTitle { get; set; }
         public DateTime EntryDateTime { get; set; }
         public DateTime ExitDateTime { get; set; }
         public bool InBuilding { get; set; }

@@ -1,6 +1,4 @@
-﻿using WarehouseManagementSystemAPI;
-
-namespace TestConsoleApp
+﻿namespace TestConsoleApp
 {
     internal class Program
     {
@@ -10,6 +8,7 @@ namespace TestConsoleApp
             //CodeExampleRunner.RunObserverPatternExample();
             //CodeExampleRunner.RunGenericsWithConstraintExample();
             //CodeExampleRunner.RunCustomQueueExample();
+            //CodeExampleRunner.RunFactoryPatternExample();
         }
     }
 }
