@@ -1,4 +1,6 @@
-﻿namespace TestConsoleApp
+﻿using ConsoleTestApp;
+
+namespace TestConsoleApp
 {
     internal class Program
     {
@@ -9,6 +11,8 @@
             //CodeExampleRunner.RunGenericsWithConstraintExample();
             //CodeExampleRunner.RunCustomQueueExample();
             //CodeExampleRunner.RunFactoryPatternExample();
+
+            CodeExampleRunner.RunBinaryFlagsExample();
         }
     }
 }

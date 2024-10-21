@@ -1,4 +1,6 @@
-﻿namespace TestConsoleApp
+﻿using ConsoleTestApp;
+
+namespace TestConsoleApp
 {
     public static class CodeExampleRunner
     {
@@ -25,6 +27,11 @@
         public static void RunFactoryPatternExample()
         {
             FactoryPatternExampleRunner.Run();
+        }
+
+        public static void RunBinaryFlagsExample()
+        {
+            BinaryFlagsExampleRunner.Run();
         }
     }
 }
