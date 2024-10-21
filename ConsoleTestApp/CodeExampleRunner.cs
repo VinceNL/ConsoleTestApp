@@ -33,5 +33,10 @@ namespace TestConsoleApp
         {
             BinaryFlagsExampleRunner.Run();
         }
+
+        public static void RunAsyncCPUBoundExample()
+        {
+            AsyncCPUBoundExampleRunner.Run();
+        }
     }
 }

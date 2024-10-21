@@ -11,8 +11,8 @@ namespace TestConsoleApp
             //CodeExampleRunner.RunGenericsWithConstraintExample();
             //CodeExampleRunner.RunCustomQueueExample();
             //CodeExampleRunner.RunFactoryPatternExample();
-
-            CodeExampleRunner.RunBinaryFlagsExample();
+            //CodeExampleRunner.RunBinaryFlagsExample();
+            //CodeExampleRunner.RunAsyncCPUBoundExample();
         }
     }
 }
