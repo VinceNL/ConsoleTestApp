@@ -56,5 +56,10 @@ namespace TestClientAsyncUWP
 
             AddListItem($"Web API operation {_webApiOperationCount} completed: {result}");
         }
+
+        private void btnNavStockMarket_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(StockMarket));
+        }
     }
 }

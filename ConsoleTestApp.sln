@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleTestApp", "ConsoleTe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomQueueClassLibrary", "CustomQueueClassLibrary\CustomQueueClassLibrary.csproj", "{EA33A10A-4242-4442-B27D-34DDE2169F62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestTimeConsumingOperationWebApi", "TestTimeConsumingOperationWebApi\TestTimeConsumingOperationWebApi.csproj", "{2C25A675-2D09-4E0C-9EF9-049A3E28924F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestTimeConsumingOperationWebApi", "TestTimeConsumingOperationWebApi\TestTimeConsumingOperationWebApi.csproj", "{2C25A675-2D09-4E0C-9EF9-049A3E28924F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestClientAsyncUWP", "TestClientAsyncUWP\TestClientAsyncUWP.csproj", "{5D227C39-4C4C-4845-83F9-08E45AB32278}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockMarketLibrary", "StockMarketLibrary\StockMarketLibrary.csproj", "{3E22608A-8984-4229-A855-050736C2B30B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -115,6 +117,26 @@ Global
 		{5D227C39-4C4C-4845-83F9-08E45AB32278}.Release|x86.ActiveCfg = Release|x86
 		{5D227C39-4C4C-4845-83F9-08E45AB32278}.Release|x86.Build.0 = Release|x86
 		{5D227C39-4C4C-4845-83F9-08E45AB32278}.Release|x86.Deploy.0 = Release|x86
+		{3E22608A-8984-4229-A855-050736C2B30B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E22608A-8984-4229-A855-050736C2B30B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E22608A-8984-4229-A855-050736C2B30B}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{3E22608A-8984-4229-A855-050736C2B30B}.Debug|ARM.Build.0 = Debug|Any CPU
+		{3E22608A-8984-4229-A855-050736C2B30B}.Debug|ARM64.ActiveCfg = Debug|Any CPU
+		{3E22608A-8984-4229-A855-050736C2B30B}.Debug|ARM64.Build.0 = Debug|Any CPU
+		{3E22608A-8984-4229-A855-050736C2B30B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{3E22608A-8984-4229-A855-050736C2B30B}.Debug|x64.Build.0 = Debug|Any CPU
+		{3E22608A-8984-4229-A855-050736C2B30B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3E22608A-8984-4229-A855-050736C2B30B}.Debug|x86.Build.0 = Debug|Any CPU
+		{3E22608A-8984-4229-A855-050736C2B30B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E22608A-8984-4229-A855-050736C2B30B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E22608A-8984-4229-A855-050736C2B30B}.Release|ARM.ActiveCfg = Release|Any CPU
+		{3E22608A-8984-4229-A855-050736C2B30B}.Release|ARM.Build.0 = Release|Any CPU
+		{3E22608A-8984-4229-A855-050736C2B30B}.Release|ARM64.ActiveCfg = Release|Any CPU
+		{3E22608A-8984-4229-A855-050736C2B30B}.Release|ARM64.Build.0 = Release|Any CPU
+		{3E22608A-8984-4229-A855-050736C2B30B}.Release|x64.ActiveCfg = Release|Any CPU
+		{3E22608A-8984-4229-A855-050736C2B30B}.Release|x64.Build.0 = Release|Any CPU
+		{3E22608A-8984-4229-A855-050736C2B30B}.Release|x86.ActiveCfg = Release|Any CPU
+		{3E22608A-8984-4229-A855-050736C2B30B}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
