@@ -61,5 +61,10 @@ namespace TestClientAsyncUWP
         {
             this.Frame.Navigate(typeof(StockMarket));
         }
+
+        private void btnNavCancelTasks_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(CancelTasks));
+        }
     }
 }

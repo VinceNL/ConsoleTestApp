@@ -12,7 +12,7 @@
         <Button x:Name="Local_Operation" Content="Local Operation" Margin="150,160,0,0" VerticalAlignment="Top" Height="90" Width="228" Click="Local_Operation_Click"/>
         <Button x:Name="btnCPUBoundOperation" Content="CPU Bound Operation" Margin="150,311,0,0" VerticalAlignment="Top" Height="94" Width="228" Click="btnCPUBoundOperation_Click"/>
         <ListView x:Name="lvwOutput" Margin="578,0,0,0"/>
-        <Button x:Name="btnNavStockMarket" Content="Navigate to MainPage --&gt;" Margin="30,904,0,0" VerticalAlignment="Top" Height="56" Width="516" Click="btnNavStockMarket_Click"/>
+        <Button x:Name="btnNavMainPage" Content="Navigate to MainPage --&gt;" Margin="30,904,0,0" VerticalAlignment="Top" Height="56" Width="516" Click="btnNavMainPage_Click"/>
 
     </Grid>
 </Page>

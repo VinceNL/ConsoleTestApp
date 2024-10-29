@@ -71,7 +71,7 @@ namespace TestClientAsyncUWP
             // Code to display indicators on chart
         }
 
-        private void btnNavStockMarket_Click(object sender, RoutedEventArgs e)
+        private void btnNavMainPage_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(MainPage));
         }
