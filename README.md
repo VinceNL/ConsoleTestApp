@@ -49,9 +49,21 @@ Provides an implementation of a custom queue data structure, demonstrating how t
 
 Explains the factory design pattern, which provides a way to create objects without specifying the exact class of the object that will be created.
 
-### Asynchronous Programming with Minimal APIs
+### Asynchronous Programming with Minimal APIs (UWP Project)
 
 Demonstrates asynchronous programming using minimal APIs in a console application. This example includes a simple web API endpoint that simulates a long-running operation.
+
+### Asynchronous Programming cpu bound operation (UWP Project)
+
+Demonstrates asynchronous Programming for cpu intensive loads and demonstrates best practices
+
+### Asynchronous Programming cancelling task(s) (UWP Project)
+
+Demonstrates how to cancel an asynchronous operation in C# with a download example
+
+### Binary Flags
+
+Show how Binary operators in C# can be used in an authentication context
 
 ## Running the Minimal API Example
 
