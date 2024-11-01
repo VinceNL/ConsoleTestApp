@@ -1,4 +1,7 @@
 ﻿using ConsoleTestApp;
+using TCPData;
+using TCPExtensions;
+using System.Linq;
 
 namespace TestConsoleApp
 {
@@ -13,6 +16,7 @@ namespace TestConsoleApp
             //CodeExampleRunner.RunFactoryPatternExample();
             //CodeExampleRunner.RunBinaryFlagsExample();
             //CodeExampleRunner.RunAsyncCPUBoundExample();
+            //CodeExampleRunner.RunLinqQueryExample();
         }
     }
 }

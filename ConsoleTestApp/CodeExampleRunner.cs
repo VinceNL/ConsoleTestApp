@@ -38,5 +38,10 @@ namespace TestConsoleApp
         {
             AsyncCPUBoundExampleRunner.Run();
         }
+
+        public static void RunLinqQueryExample()
+        {
+            LinqQueryExampleRunner.Run();
+        }
     }
 }

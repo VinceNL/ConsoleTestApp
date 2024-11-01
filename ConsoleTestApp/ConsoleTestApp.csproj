@@ -9,6 +9,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CustomQueueClassLibrary\CustomQueueClassLibrary.csproj" />
+    <ProjectReference Include="..\TCPData\TCPData.csproj" />
+    <ProjectReference Include="..\TCPExtensions\TCPExtensions.csproj" />
   </ItemGroup>
 
 </Project>
