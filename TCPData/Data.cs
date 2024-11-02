@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System.Collections;
+using System.Collections.Generic;
 
 namespace TCPData
 {
@@ -88,6 +89,52 @@ namespace TCPData
                     LongName = "Finance"
                 }
             };
+        }
+        public static ArrayList GetHeterogeneousDataCollection()
+        {
+            var arrayList = new ArrayList
+            {
+                1,
+                "Hello",
+                3.14,
+                new Employee
+                {
+                    Id = 1,
+                    FirstName = "John",
+                    LastName = "Doe",
+                    AnnualSalary = 60000,
+                    IsManager = true,
+                    DepartmentId = 1
+                },
+                new Employee
+                {
+                    Id = 2,
+                    FirstName = "Jane",
+                    LastName = "Smith",
+                    AnnualSalary = 50000,
+                    IsManager = false,
+                    DepartmentId = 1
+                },
+                new Department
+                {
+                    Id = 1,
+                    ShortName = "HR",
+                    LongName = "Human Resources"
+                },
+                new Department
+                {
+                    Id = 2,
+                    ShortName = "IT",
+                    LongName = "Information Technology"
+                },
+                new Department
+                {
+                    Id = 3,
+                    ShortName = "FN",
+                    LongName = "Finance"
+                }
+            };
+            return arrayList;
         }
     }
 }
