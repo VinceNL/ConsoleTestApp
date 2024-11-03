@@ -48,5 +48,10 @@ namespace TestConsoleApp
         {
             LinqOperatorsExampleRunner.Run();
         }
+
+        public static void RunLinqOperatorsContinuedExample()
+        {
+            LinqOperatorsContinuedExampleRunner.Run();
+        }
     }
 }
