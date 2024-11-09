@@ -65,6 +65,26 @@ Demonstrates how to cancel an asynchronous operation in C# with a download examp
 
 Show how Binary operators in C# can be used in an authentication context
 
+### Linq Query Example
+
+Demonstrates how to use LINQ queries to filter, sort, and manipulate collections in C#.
+
+### Linq Operators Example
+
+Shows how to use various LINQ operators to perform complex queries on collections.
+
+### Linq Operators Continued Example
+
+Continues the demonstration of LINQ operators with more advanced examples.
+
+### Attributes and Custom Attributes
+
+Explains how to define and use custom attributes in C# to add metadata to your code.
+
+### Reflection
+
+Demonstrates how to use reflection to inspect and manipulate objects at runtime in C#.
+
 ## Running the Minimal API Example
 
 To run the minimal API example you will need to set up multiple startup projects. Namely TestClientAsyncUWP and TestTimeConsumingOperationWebApi
