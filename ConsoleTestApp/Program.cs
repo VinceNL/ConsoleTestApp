@@ -1,4 +1,6 @@
-﻿namespace TestConsoleApp
+﻿using System.Reflection;
+
+namespace TestConsoleApp
 {
     internal class Program
     {
@@ -15,6 +17,7 @@
             //CodeExampleRunner.RunLinqOperatorsExample();
             //CodeExampleRunner.RunLinqOperatorsContinuedExample();
             //CodeExampleRunner.RunAttributesExamples();
+            //CodeExampleRunner.RunReflectionExample();
         }
     }
 }

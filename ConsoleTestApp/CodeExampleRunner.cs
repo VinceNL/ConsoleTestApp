@@ -58,5 +58,10 @@ namespace TestConsoleApp
         {
             AttributesExamplesRunner.Run();
         }
+
+        public static void RunReflectionExample()
+        {
+            ReflectionExampleRunner.Run();
+        }
     }
 }
