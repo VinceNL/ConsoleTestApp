@@ -1,12 +1,4 @@
-﻿using ConsoleTestApp;
-using TCPData;
-using TCPExtensions;
-using System.Linq;
-using System.Security.Cryptography.X509Certificates;
-using System.Collections;
-using System.Globalization;
-
-namespace TestConsoleApp
+﻿namespace TestConsoleApp
 {
     internal class Program
     {
@@ -22,6 +14,7 @@ namespace TestConsoleApp
             //CodeExampleRunner.RunLinqQueryExample();
             //CodeExampleRunner.RunLinqOperatorsExample();
             //CodeExampleRunner.RunLinqOperatorsContinuedExample();
+            //CodeExampleRunner.RunAttributesExamples();
         }
     }
 }

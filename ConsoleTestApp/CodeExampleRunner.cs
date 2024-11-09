@@ -53,5 +53,10 @@ namespace TestConsoleApp
         {
             LinqOperatorsContinuedExampleRunner.Run();
         }
+
+        public static void RunAttributesExamples()
+        {
+            AttributesExamplesRunner.Run();
+        }
     }
 }
